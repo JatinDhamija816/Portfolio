@@ -12,7 +12,7 @@ const Home = () => {
             })
     }, [])
     return (
-        <div className='bg-gray-200 min-h-screen'>
+        <div className='bg-gray-200 min-h-screen md:h-fit'>
             <div className='flex md:flex-col'>
                 <div className='flex-row justify-center text-center w-2/3 md:w-full'>
                     <h1 className='text-7xl mb-14 pt-24 font-bold text-white drop-shadow-lg'>Welcome</h1>
