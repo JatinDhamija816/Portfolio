@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
     return (
         <div className='bg-black text-white'>
-            <div className='flex justify-evenly p-2'>
+            <div className='flex justify-evenly p-2 md:flex md:justify-between'>
                 <div className='flex justify-center'>
                     <h1 className='p-2 text-4xl underline font-mono'>Follow me</h1>
                 </div>
@@ -17,10 +17,10 @@ const Contact = () => {
                     <Link className='m-2 p-2' to='mailto:jatindhamija025@gmail.com'><EmailIcon /></Link>
                 </div>
             </div >
-            <hr className='text-white w-2/3 m-auto' />
+            <hr className='text-white w-2/3 m-auto md:w-full' />
             <div className='flex justify-evenly w-2/3 m-auto min-h-fit py-2'>
                 <div>
-                    <h1 className='p-2 text-4xl'>JD</h1>
+                    <h1 className='p-2 text-4xl md:text-transparent'>JD</h1>
                 </div>
                 <div>
                     <ul className='p-2 flex'>
