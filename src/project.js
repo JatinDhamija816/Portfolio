@@ -1,5 +1,13 @@
 export const projects = [
     {
+        heading: 'Blog App',
+        desc: 'This is the dribbble website clone.It has developed using MERN stack and designed using Tailwind CSS ',
+        tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
+        github: 'https://github.com/JatinDhamija816/Blog',
+        live: 'https://blog-eta-five-23.vercel.app/',
+        img: ''
+    },
+    {
         heading: 'Dribble',
         desc: 'This is the dribbble website clone.It has developed using MERN stack and designed using Tailwind CSS ',
         tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
