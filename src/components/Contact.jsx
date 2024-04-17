@@ -28,6 +28,9 @@ const Contact = () => {
                         <Link to='./skills'><li className='text-lg p-3 text-serif'>Skills</li></Link>
                         <Link to='./education'><li className='text-lg p-3 text-serif'>Education</li></Link>
                         <Link to='./projects'><li className='text-lg p-3 text-serif'>Projects</li></Link>
+                        <Link to='https://leetcode.com/JatinDhamija816/' target='_blank'>
+                            <li className='text-lg p-3 text-serif'>Leetcode</li>
+                        </Link>
                     </ul>
                 </div>
             </div>

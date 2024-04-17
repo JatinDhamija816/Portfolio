@@ -11,19 +11,19 @@ const Navbar = () => {
             <div className=''>
                 <ul className='flex mr-5'>
                     <Link to='/'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl hover:font-serif '>Home</li>
+                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl '>Home</li>
                     </Link>
                     <Link to='/skills'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl hover:font-serif '>Skills</li>
+                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl '>Skills</li>
                     </Link>
                     <Link to='/education'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl hover:font-serif '>Education</li>
+                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl '>Education</li>
                     </Link>
                     <Link to='projects'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl hover:font-serif '>Projects</li>
+                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl  '>Projects</li>
                     </Link>
                     <Link to='https://leetcode.com/JatinDhamija816/' target='_blank'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl hover:font-serif '>Leetcode</li>
+                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl  '>Leetcode</li>
                     </Link>
                 </ul>
             </div>

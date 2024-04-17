@@ -9,12 +9,12 @@ const Projects = () => {
             <div>
                 <h1 className='text-4xl text-center py-1 font-bold font-mono shadow-lg shadow-slate-500 uppercase' >projects</h1>
             </div>
-            <div>
-                <div className=' m-5 justify-center'>
+            <div className=''>
+                <ul className="flex flex-wrap justify-center">
                     {
                         projects.map((project) => (
-                            <div className='w-5/6 m-auto bg-slate-100 p-5 rounded-2xl drop-shadow-2xl my-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-x-110 md:w-fit' key={project.heading}>
-                                <div className='w-2/3 md:w-fit'>
+                            <li className='w-1/2 mt-10 mx-5 p-5 bg-slate-200 drop-shadow-2xl rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110' key={project.heading}>
+                                <div className=' md:w-fit'>
                                     <h1 className='text-center text-2xl text-blue-500 font-semibold m-3'>{project.heading}</h1>
                                     <p className='m-3 p-5 text-center text-gray-500'>{project.desc}</p>
                                     <div className='flex justify-center' >
@@ -31,13 +31,11 @@ const Projects = () => {
                                         <ExternalLink href={project.live} className='mx-2'>{project.live ? <LanguageOutlinedIcon /> : ''}</ExternalLink>
                                     </div>
                                 </div>
-                                <div className='w-1/3 md:w-fit'>
-                                    <img src={project.img} alt="" />
-                                </div>
-                            </div>
+
+                            </li>
                         ))
                     }
-                </div>
+                </ul>
             </div>
         </div >
     )
