@@ -6,7 +6,7 @@ const Education = () => {
             <div className=''>
                 <h1 className='uppercase text-4xl text-center py-1 font-mono font-bold text-slate-500 bg-gray-100 shadow-lg drop-shadow-2xl '>Education</h1>
             </div>
-            <div className='mt-10'>
+            <div className='mt-10 md:mt-5'>
                 <div className='px-10 py-5'>
                     <h1 className='font-mono font-semibold text-2xl mb-3'>Bachelor's Degree in Computer Science & Engineering</h1>
                     <p className='text-slate-500'>Panipat Institute of Engineering and Technology</p>

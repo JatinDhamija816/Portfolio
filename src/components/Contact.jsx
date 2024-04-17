@@ -18,12 +18,12 @@ const Contact = () => {
                 </div>
             </div >
             <hr className='text-white w-2/3 m-auto md:w-full' />
-            <div className='flex justify-evenly w-2/3 m-auto min-h-fit py-2'>
-                <div>
-                    <h1 className='p-2 text-4xl md:text-transparent'>JD</h1>
+            <div className='flex justify-evenly w-2/3 m-auto min-h-fit py-2 md:flex-col md:w-full'>
+                <div className='md:hidden'>
+                    <h1 className='p-2 text-4xl md:text-center'>JD</h1>
                 </div>
                 <div>
-                    <ul className='p-2 flex'>
+                    <ul className='p-2 flex md:justify-center'>
                         <Link to='./'><li className='text-lg p-3 text-serif'>Home</li></Link>
                         <Link to='./skills'><li className='text-lg p-3 text-serif'>Skills</li></Link>
                         <Link to='./education'><li className='text-lg p-3 text-serif'>Education</li></Link>

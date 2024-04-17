@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <div className='bg-gray-500 min-h-screen md:h-fit'>
             <div className='flex md:flex-col'>
-                <div className='flex-row ml-10 w-2/5 md:w-full'>
+                <div className='flex-row ml-10 w-2/5 md:w-full md:mx-auto md:px-5'>
                     <p className='text-4xl mb-5 pt-24 font-bold text-white drop-shadow-lg'>Welcome</p>
                     <h1 className='mb-10 text-8xl font-bold tracking-wider'>I'm Jatin Dhamija</h1>
                     <p className='mb-10 text-4xl font-bold tracking-widest text-white'>I'm a web Developer,I build things for web</p>
