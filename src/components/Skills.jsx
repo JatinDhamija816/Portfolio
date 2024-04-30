@@ -27,9 +27,9 @@ const Skills = () => {
                 <div className='w-2/3 m-auto mt-5'>
                     <ul className='flex flex-wrap justify-center'>
                         <li className='bg-yellow-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>JavaScript</li>
-                        <li className='bg-yellow-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>TypeScript</li>
+                        <li className='bg-blue-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>TypeScript</li>
                         <li className='bg-green-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>Tailwind CSS</li>
-                        <li className='bg-yellow-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>NextJs</li>
+                        <li className='bg-indigo-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>NextJs</li>
                         <li className='bg-neutral-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>ReactJs</li>
                         <li className='bg-amber-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>Node.js</li>
                         <li className='bg-lime-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>Express.js</li>
