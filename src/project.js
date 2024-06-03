@@ -1,10 +1,9 @@
 export const projects = [
     {
         heading: 'Blog App',
-        desc: 'This is a full-stack web application built to empower users to effortlessly create, publish, and share their thoughts with the world through engaging blog posts. Developed using the MERN stack, This App offers a seamless and intuitive blogging experience, catering to both novice writers and seasoned bloggers alike.',
+        desc: 'This Blog Application is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled with Tailwind CSS. It features full user authentication and allows users to create, read, update, and delete blog posts. The application is fully responsive and designed for a seamless user experience.',
         tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
-        github: 'https://github.com/JatinDhamija816/Blog',
-        live: 'https://blog-eta-five-23.vercel.app/',
+        github: 'https://github.com/JatinDhamija816/blogs',
     },
     {
         heading: 'Dribble',
