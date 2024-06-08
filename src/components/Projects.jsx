@@ -5,7 +5,7 @@ import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import { projects } from '../project';
 const Projects = () => {
     return (
-        <div className='border min-h-screen lg:h-fit'>
+        <div className='border min-h-screen'>
             <div>
                 <h1 className='text-4xl text-center py-1 font-bold font-mono shadow-lg shadow-slate-500 uppercase' >projects</h1>
             </div>
