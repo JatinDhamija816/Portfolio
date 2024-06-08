@@ -1,7 +1,7 @@
 import React from 'react'
 const Home = () => {
     return (
-        <div className='bg-gray-500 min-h-screen md:h-fit'>
+        <div className='bg-gray-500 h-screen lg:h-fit '>
             <div className='flex md:flex-col'>
                 <div className='flex-row ml-10 w-2/5 md:w-full md:mx-auto md:px-5'>
                     <p className='text-4xl mb-5 pt-24 font-bold text-white drop-shadow-lg'>Welcome</p>

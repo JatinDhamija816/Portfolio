@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
-        <div className='shadow-lg w-full px-5 py-2 flex justify-between items-center bg-black md:flex-col'>
+        <div className='shadow-lg w-full px-5 py-2 flex justify-between items-center bg-black lg:flex-col'>
             <div className=''>
                 <Link to='/'>
                     <h1 className='text-4xl font-mono text-white ml-5 italic hover:not-italic hover:cursor-pointer'>JD</h1>
