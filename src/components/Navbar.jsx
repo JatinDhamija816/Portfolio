@@ -19,7 +19,7 @@ const Navbar = () => {
                     <Link to='/education'>
                         <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl '>Education</li>
                     </Link>
-                    <Link to='projects'>
+                    <Link to='/projects'>
                         <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl  '>Projects</li>
                     </Link>
                     <Link to='https://leetcode.com/JatinDhamija816/' target='_blank'>

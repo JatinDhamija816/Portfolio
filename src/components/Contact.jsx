@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import { Link } from 'react-router-dom';
 const Contact = () => {
     return (
-        <div className='bg-black text-white min-h-screen'>
+        <div className='bg-black text-white'>
             <div className='flex justify-evenly p-2 sm:flex sm:justify-between'>
                 <div className='flex justify-center'>
                     <h1 className='p-2 text-4xl underline font-mono'>Follow me</h1>

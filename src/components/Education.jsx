@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Contact from './Contact'
 
 const Education = () => {
     return (
-        <div className='border-t-0 min-h-screen bg-gray-100'>
+        <div className=' h-fit bg-gray-100'>
+            <Navbar />
             <div className=''>
                 <h1 className='uppercase text-4xl text-center py-1 font-mono font-bold text-slate-500 bg-gray-100 shadow-lg drop-shadow-2xl '>Education</h1>
             </div>
@@ -24,6 +27,7 @@ const Education = () => {
                     <p className='font-semibold mt-1 font-serif'>2015-2016</p>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

@@ -1,7 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Contact from './Contact'
 const Home = () => {
     return (
-        <div className='bg-gray-500 min-h-screen'>
+        <div className='bg-gray-500 h-fit'>
+            <Navbar />
             <div className='flex sm:flex-col'>
                 <div className='flex-row ml-10 w-2/5 sm:w-full sm:mx-auto sm:px-5 md:w-full'>
                     <p className='text-4xl mb-5 pt-24 font-bold text-white drop-shadow-lg'>Welcome</p>
@@ -13,6 +16,7 @@ const Home = () => {
 
                 </div>
             </div>
+            <Contact />
         </div >
     )
 }
