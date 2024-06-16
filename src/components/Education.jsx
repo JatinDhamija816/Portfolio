@@ -4,7 +4,7 @@ import Contact from './Contact'
 
 const Education = () => {
     return (
-        <div className=' h-fit bg-gray-100'>
+        <div className=' h-screen bg-gray-100'>
             <Navbar />
             <div className=''>
                 <h1 className='uppercase text-4xl text-center py-1 font-mono font-bold text-slate-500 bg-gray-100 shadow-lg drop-shadow-2xl '>Education</h1>

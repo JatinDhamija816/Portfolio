@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Contact from './Contact'
 const Home = () => {
     return (
-        <div className='bg-gray-500 h-fit'>
+        <div className='bg-gray-500 h-screen'>
             <Navbar />
             <div className='flex sm:flex-col'>
                 <div className='flex-row ml-10 w-2/5 sm:w-full sm:mx-auto sm:px-5 md:w-full'>

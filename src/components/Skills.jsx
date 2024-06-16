@@ -4,7 +4,7 @@ import Contact from './Contact'
 
 const Skills = () => {
     return (
-        <div className='h-fit'>
+        <div className='h-screen'>
             <Navbar />
             <div>
                 <h1 className='text-4xl py-1 font-bold font-mono shadow-lg shadow-zinc-500 text-center' >SKILLS</h1>

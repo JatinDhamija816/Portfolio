@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 import Contact from './Contact';
 const Projects = () => {
     return (
-        <div className='h-fit'>
+        <div className='h-screen'>
             <Navbar />
             <div>
                 <h1 className='text-4xl text-center py-1 font-bold font-mono shadow-lg shadow-slate-500 uppercase' >projects</h1>
