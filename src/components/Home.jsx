@@ -3,9 +3,9 @@ import Navbar from './Navbar'
 import Contact from './Contact'
 const Home = () => {
     return (
-        <div className='bg-gray-500 h-screen'>
+        <div className='bg-gray-500 flex flex-col h-screen justify-between'>
             <Navbar />
-            <div className='flex sm:flex-col'>
+            <div className='flex sm:flex-col mb-auto'>
                 <div className='flex-row ml-10 w-2/5 sm:w-full sm:mx-auto sm:px-5 md:w-full'>
                     <p className='text-4xl mb-5 pt-24 font-bold text-white drop-shadow-lg'>Welcome</p>
                     <h1 className='mb-10 text-8xl font-bold tracking-wider '>I'm Jatin Dhamija</h1>
