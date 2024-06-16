@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
     return (
         <div className='bg-black text-white'>
-            <div className='flex justify-evenly p-2 md:flex md:justify-between'>
+            <div className='flex justify-evenly p-2 sm:flex sm:justify-between'>
                 <div className='flex justify-center'>
                     <h1 className='p-2 text-4xl underline font-mono'>Follow me</h1>
                 </div>
@@ -17,13 +17,13 @@ const Contact = () => {
                     <Link className='m-2 p-2' to='mailto:jatindhamija025@gmail.com'><EmailIcon /></Link>
                 </div>
             </div >
-            <hr className='text-white w-2/3 m-auto md:w-full' />
-            <div className='flex justify-evenly w-2/3 m-auto min-h-fit py-2 md:flex-col md:w-full'>
-                <div className='md:hidden'>
-                    <h1 className='p-2 text-4xl md:text-center'>JD</h1>
+            <hr className='text-white w-2/3 m-auto sm:w-full' />
+            <div className='flex justify-evenly w-2/3 m-auto min-h-fit py-2 sm:flex-col sm:w-full'>
+                <div className='sm:hidden md:hidden'>
+                    <h1 className='p-2 text-4xl sm:text-center'>JD</h1>
                 </div>
                 <div>
-                    <ul className='p-2 flex md:justify-center'>
+                    <ul className='p-2 flex sm:justify-center'>
                         <Link to='./'><li className='text-lg p-3 text-serif'>Home</li></Link>
                         <Link to='./skills'><li className='text-lg p-3 text-serif'>Skills</li></Link>
                         <Link to='./education'><li className='text-lg p-3 text-serif'>Education</li></Link>

@@ -6,16 +6,16 @@ const Skills = () => {
             <div>
                 <h1 className='text-4xl py-1 font-bold font-mono shadow-lg shadow-zinc-500 text-center' >SKILLS</h1>
             </div>
-            <div className='flex m-5 md:flex-col'>
-                <div className='md:w-fit border w-1/3 m-10 p-10 bg-slate-200 drop-shadow-2xl rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
+            <div className='flex m-5 sm:flex-col md:flex-col '>
+                <div className='sm:w-fit w-1/3 m-10 p-10 bg-slate-200 drop-shadow-2xl rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 md:w-4/5 md:mx-auto lg:'>
                     <h1 className='text-blue-800 font-semibold text-3xl text-center mb-5'>Web Design</h1>
                     <p className='text-center text-lg'>I love designs and it's the first step before creating any website as I can give layout to my imagination</p>
                 </div>
-                <div className='md:w-fit border w-1/3 m-10 p-10 bg-slate-200 drop-shadow-2xl rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
+                <div className='sm:w-fit border w-1/3 m-10 p-10 bg-slate-200 drop-shadow-2xl rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 md:w-4/5 md:mx-auto'>
                     <h1 className='text-blue-800 font-semibold text-3xl text-center mb-5'>Web Development</h1>
                     <p className='text-center text-lg'>I am a Full Stack Web Developer (MERN) and have quite some experience in it as well</p>
                 </div>
-                <div className='md:w-fit border w-1/3 m-10 p-10 bg-slate-200 drop-shadow-2xl rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
+                <div className='sm:w-fit border w-1/3 m-10 p-10 bg-slate-200 drop-shadow-2xl rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 md:w-4/5 md:mx-auto'>
                     <h1 className='text-blue-800 font-semibold text-3xl text-center mb-5'>Problem Solving</h1>
                     <p className='text-center text-lg'>I love solving problems whether programming problems or real life problems</p>
                 </div>
@@ -25,7 +25,7 @@ const Skills = () => {
                     <h1 className='text-center font-semibold text-xl tracking-widest mt-5'>TECH I'M FAMILIAR WITH</h1>
                 </div>
                 <div className='w-2/3 m-auto mt-5'>
-                    <ul className='flex flex-wrap justify-center'>
+                    <ul className='flex flex-wrap justify-center mb-5'>
                         <li className='bg-yellow-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>JavaScript</li>
                         <li className='bg-blue-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>TypeScript</li>
                         <li className='bg-green-700 text-white mx-5 my-3 border px-5 py-1 rounded-2xl '>Tailwind CSS</li>
