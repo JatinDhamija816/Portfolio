@@ -3,9 +3,10 @@ import { ExternalLink } from 'react-external-link'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import { projects } from '../project';
+
 const Projects = () => {
     return (
-        <div className='border min-h-screen'>
+        <div className='border'>
             <div>
                 <h1 className='text-4xl text-center py-1 font-bold font-mono shadow-lg shadow-slate-500 uppercase' >projects</h1>
             </div>
