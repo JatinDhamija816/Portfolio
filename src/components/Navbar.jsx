@@ -1,33 +1,58 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
+
 const Navbar = () => {
+
+    const [nav, setNav] = useState(false)
+
+    const links = [
+        {
+            id: 1, link: 'home',
+        },
+        {
+            id: 2, link: 'About',
+        },
+        {
+            id: 3, link: 'Skills',
+        },
+        {
+            id: 4, link: 'Projects',
+        },
+        {
+            id: 5, link: 'Education',
+        },
+        {
+            id: 6, link: 'Leetcode',
+        },
+    ]
+
     return (
-        <div className='shadow-lg w-full px-5 py-2 flex justify-between items-center bg-black sm:flex-col'>
-            <div className=''>
-                <Link to='/'>
-                    <h1 className='text-4xl font-mono text-white ml-5 italic hover:not-italic hover:cursor-pointer'>JD</h1>
-                </Link>
+        <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
+            <div>
+                <h className='text-xl font-signature ml-2'>JD</h>
             </div>
-            <div className=''>
-                <ul className='flex mr-5'>
-                    <Link to='/'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl '>Home</li>
-                    </Link>
-                    <Link to='/skills'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl '>Skills</li>
-                    </Link>
-                    <Link to='/education'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl '>Education</li>
-                    </Link>
-                    <Link to='/projects'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl  '>Projects</li>
-                    </Link>
-                    <Link to='https://leetcode.com/JatinDhamija816/' target='_blank'>
-                        <li className='mx-2 text-white font-serif hover:cursor-pointer hover:bg-white hover:text-black px-3 py-1 italic hover:not-italic hover:rounded-3xl  '>Leetcode</li>
-                    </Link>
+            <ul className='hidden md:flex'>
+                {
+                    links.map(({ link, id }) => (
+                        <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>{link}</li>
+                    ))
+                }
+            </ul>
+            <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
+                {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+            </div>
+            {
+                nav &&
+                <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text gray-500'>
+                    {
+                        links.map(({ link, id }) => (
+                            <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>{link}</li>
+                        ))
+                    }
                 </ul>
-            </div>
+            }
         </div>
     )
 }
+
 export default Navbar
