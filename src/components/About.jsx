@@ -4,7 +4,7 @@ const About = () => {
 
     return (
         <div name="about" className="w-full bg-gradient-to-b from-gray-800 to-black text-white">
-            <div className="max-w-screen-lg flex flex-col h-auto justify-center p-5 mx-auto md:h-screen">
+            <div className="max-w-screen-lg flex flex-col h-auto justify-center p-5 mx-auto md:h-screen min-h-screen">
                 <div className="py-5">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                 </div>
