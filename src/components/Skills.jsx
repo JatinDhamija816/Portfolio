@@ -1,5 +1,4 @@
 import React from "react";
-
 import html from '../assests/languages/html.png'
 import css from '../assests/languages/css.png'
 import js from '../assests/languages/javascript.png'
@@ -85,8 +84,8 @@ const Skills = () => {
     ];
 
     return (
-        <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full h-fit">
-            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-fit min-h-screen text-white">
+        <div name="skills" className="pt-20 bg-gradient-to-b from-gray-800 to-black w-full h-fit">
+            <div className="max-w-screen-lg mx-auto p-5 flex flex-col justify-center text-white w-full">
                 <div>
                     <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Skills</p>
                     <p className="py-6">These are the technologies I've worked with</p>
