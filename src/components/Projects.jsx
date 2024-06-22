@@ -1,9 +1,9 @@
 import React from 'react'
-import blog from '../assests/Projects/blogs.jpg'
-import dribble from '../assests/Projects/dribble.jpg'
-import quiz from '../assests/Projects/QuizApp.jpg'
-import todo from '../assests/Projects/todo.jpg'
-import finance from '../assests/Projects/financeApp.jpg'
+import blog from '../assets/Projects/blogs.jpg'
+import dribble from '../assets/Projects/dribble.jpg'
+import quiz from '../assets/Projects/QuizApp.jpg'
+import todo from '../assets/Projects/todo.jpg'
+import finance from '../assets/Projects/financeApp.jpg'
 
 const Projects = () => {
 
@@ -51,15 +51,15 @@ const Projects = () => {
     ];
 
     return (
-        <div name="projects" className="pt-20 bg-gradient-to-b from-black to-gray-800 w-full text-white ">
-            <div className="max-w-screen-lg p-5 mx-auto flex flex-col justify-center ">
-                <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">Projects</p>
-                    <p className="py-6">Check out some of my work right here</p>
+        <div name="projects" className="pt-20 pb-5 bg-gradient-to-b from-slate-900 to-slate-700 min-h-screen text-white">
+            <div className="max-w-screen-xl mx-auto flex justify-center flex-col md:min-h-screen px-4">
+                <div className='pb-8 flex flex-col justify-center items-center'>
+                    <p className="text-center md:text-left text-4xl font-bold border-b-4 border-gray-500 p-2 md:inline w-fit mx-auto">Projects</p>
+                    <p className="text-center md:text-left py-6">Check out some of my work right here</p>
                 </div>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+                <div className="flex justify-center flex-wrap">
                     {projects.map(({ id, src, demoLink, codeLink, alt, name }) => (
-                        <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                        <div key={id} className="shadow-md shadow-gray-300 bg-gray-900  rounded-lg w-2/3 sm:w-1/2 md:w-1/4 mx-5 my-5">
                             <img src={src} alt={alt} className="rounded-md duration-200 hover:scale-105 w-full h-40" />
                             <div>
                                 <p className='text-center pt-2 font-bold'>{name}</p>

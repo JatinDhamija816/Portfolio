@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { HiOutlineMail } from 'react-icons/hi'
 import { FaGithub, FaLinkedin } from 'react-icons/fa6'
 import { SiLeetcode } from "react-icons/si";
+import { FaFilePdf } from "react-icons/fa";
+
 const Footer = () => {
     const links = [
         {
@@ -32,10 +34,18 @@ const Footer = () => {
             ),
             href: 'mailto:jatindamija025@gmail.com',
         },
+        {
+            id: 5,
+            child: (
+                <><FaFilePdf size={30} /></>
+            ),
+            href: '/Resume.pdf',
+            download: true
+        },
 
     ]
     return (
-        <div className='bg-gradient-to-b from-gray-800 to-black text-white'>
+        <div className='bg-gradient-to-b bg-gray-800 to-black text-white'>
             <div className='h-fit bg-black '>
                 <ul className='flex justify-center'>
                     {

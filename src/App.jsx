@@ -1,17 +1,19 @@
-import About from "./components/About"
-import Contact from "./components/Contact"
-import Education from "./components/Education"
-import Footer from "./components/Footer"
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
-import Projects from "./components/Projects"
-import Skills from "./components/Skills"
-import SocialLinks from "./components/SocialLinks"
+import React from 'react'
+import Home from './components/Home'
+import About from './components/About'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Education from './components/Education'
+import Contact from './components/Contact'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import SocialLinks from './components/SocialLinks'
 
-function App() {
+const App = () => {
   return (
     <div>
       <Navbar />
+      <SocialLinks />
       <Home />
       <About />
       <Skills />
@@ -19,7 +21,6 @@ function App() {
       <Education />
       <Contact />
       <Footer />
-      <SocialLinks />
     </div>
   )
 }

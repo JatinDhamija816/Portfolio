@@ -22,6 +22,9 @@ const Navbar = () => {
         {
             id: 5, link: 'education',
         },
+        {
+            id: 6, link: 'contact',
+        },
     ]
 
     return (
