@@ -3,6 +3,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { FaGithub, FaLinkedin } from 'react-icons/fa6'
 import { SiLeetcode } from "react-icons/si";
 import { FaFilePdf } from "react-icons/fa";
+import Resume from '../assets/Resume.pdf'
 
 const Footer = () => {
     const links = [
@@ -39,7 +40,7 @@ const Footer = () => {
             child: (
                 <><FaFilePdf size={30} /></>
             ),
-            href: '/Resume.pdf',
+            href: Resume,
             download: true
         },
 
