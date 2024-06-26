@@ -91,10 +91,10 @@ const Skills = () => {
                     <p className="text-center md:text-left py-6">These are the technologies I've worked with</p>
                 </div>
 
-                <div className="flex justify-center flex-wrap">
+                <div className="flex justify-center flex-wrap gap-5">
                     {techs.map(({ id, src, title, style }) => (
-                        <div key={id} className={`shadow-md bg-gray-900 hover:scale-105 duration-500 py-2 md:w-1/5 w-1/3 mx-5 my-5 rounded-lg ${style}`}>
-                            <img src={src} alt="" className="w-20 mx-auto rounded" />
+                        <div key={id} className={`shadow-md bg-gray-900 hover:scale-105 md:w-1/6 w-1/3 duration-500 py-3  m-5 px-4 rounded-lg ${style}`}>
+                            <img src={src} alt={title} className="w-20 mx-auto rounded" />
                             <p className="mt-4 text-center">{title}</p>
                         </div>
                     ))}

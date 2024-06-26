@@ -27,20 +27,20 @@ const Education = () => {
                 <div className="pb-8 flex flex-col justify-center items-center">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">Education</p>
                 </div>
-                {
-                    education.map(({ school, course, marks, year }) => (
-                        <div key={course} className="md:w-4/5 shadow-md shadow-gray-600 bg-gray-900 rounded-lg duration-200 hover:scale-105 px-10 py-5 my-5 mx-auto w-full">
-                            <div className="flex justify-between">
-                                <h1 className="font-bold">{school}</h1>
-                                <p>{year}</p>
+                <div className="space-y-5">
+                    {education.map(({ school, course, marks, year }, index) => (
+                        <div key={index} className="w-full sm:w-4/5 md:w-3/4 lg:w-4/5 mx-auto shadow-md shadow-gray-600 bg-gray-900 rounded-lg duration-200 hover:scale-105 px-6 py-4">
+                            <div className="flex flex-col sm:flex-row justify-between">
+                                <h1 className="font-bold text-lg">{school}</h1>
+                                <p className="text-gray-400">{year}</p>
                             </div>
-                            <div>
-                                <h1>{course}</h1>
-                                <h1>{marks}</h1>
+                            <div className="mt-2">
+                                <h2 className="text-base md:text-lg">{course}</h2>
+                                <p className="text-gray-400">{marks}</p>
                             </div>
                         </div>
-                    ))
-                }
+                    ))}
+                </div>
             </div>
         </div>
     );

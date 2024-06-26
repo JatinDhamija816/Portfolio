@@ -57,16 +57,16 @@ const Projects = () => {
                     <p className="text-center md:text-left text-4xl font-bold border-b-4 border-gray-500 p-2 md:inline w-fit mx-auto">Projects</p>
                     <p className="text-center md:text-left py-6">Check out some of my work right here</p>
                 </div>
-                <div className="flex justify-center flex-wrap">
+                <div className="flex justify-center flex-wrap gap-5">
                     {projects.map(({ id, src, demoLink, codeLink, alt, name }) => (
-                        <div key={id} className="shadow-md shadow-gray-300 bg-gray-900  rounded-lg w-2/3 sm:w-1/2 md:w-1/4 mx-5 my-5">
-                            <img src={src} alt={alt} className="rounded-md duration-200 hover:scale-105 w-full h-40" />
-                            <div>
-                                <p className='text-center pt-2 font-bold'>{name}</p>
-                            </div>
-                            <div className="flex items-center justify-center">
-                                <a href={demoLink} target="_blank" rel="noopener noreferrer" className="w-1/2 px-6 p-1 m-4 duration-200 hover:scale-105 text-center">Demo</a>
-                                <a href={codeLink} target="_blank" rel="noopener noreferrer" className="w-1/2 px-6 p-1 m-4 duration-200 hover:scale-105 text-center">Code</a>
+                        <div key={id} className="shadow-md shadow-gray-300 bg-gray-900 rounded-lg  sm:w-1/3 md:w-1/3 lg:w-1/4 mx-2 my-4">
+                            <img src={src} alt={alt} className="rounded-t-lg duration-200 hover:scale-105 w-full h-40 " />
+                            <div className="p-4">
+                                <p className="text-center font-bold mb-4">{name}</p>
+                                <div className="flex justify-between">
+                                    <a href={demoLink} target="_blank" className="w-full text-center py-2 border border-blue-500 text-white rounded-lg hover:bg-blue-600 mx-1 transition-transform transform hover:scale-105">Demo</a>
+                                    <a href={codeLink} target="_blank" className="w-full text-center py-2 border border-green-500 text-white rounded-lg hover:bg-green-600 mx-1 transition-transform transform hover:scale-105">Code</a>
+                                </div>
                             </div>
                         </div>
                     ))}
